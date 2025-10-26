@@ -4,12 +4,12 @@ import {
     getIntersectionSet,
     getUnionSet,
     calculateJaccardFromSet // Mantido o nome "Sets" (plural)
-} from "../src/similarityJaccard.config.js";
+} from "./similarityJaccard.config.js";
 
 import {
     Graph,
     buildSimilarityGraph
-} from "../src/graph.config.js";
+} from "./graph.config.js";
 
 // Lógica para as abas
 function setupTabs(){ // CORRIGIDO (nome da função)
