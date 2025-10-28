@@ -1,0 +1,255 @@
+/* Variáveis de cores */
+        :root {
+            --cor-fundo: #1E1E1E;
+            --cor-card: #2D2D2D;
+            --cor-texto: #FFFFFF;
+            --cor-principal: #9370DB;
+            --cor-distancia: #D9534F;
+        }
+
+        body {
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Container principal */
+        .container-ferramenta {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Títulos */
+        .main-title {
+            text-align: center;
+            color: var(--cor-principal);
+        }
+
+        .main-subtitle {
+            text-align: center;
+            font-size: 1.1em;
+            color: #b0b0b0;
+            margin-top: -15px;
+            margin-bottom: 30px;
+        }
+
+        /* Input */
+        .document-box {
+            background-color: var(--cor-card);
+            border-radius: 8px;
+            padding: 20px 25px;
+            margin-bottom: 20px;
+            border: 1px solid #444;
+        }
+
+        .document-box h4 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        /* Abas Internas ("Colar Texto" / "Upload") */
+        .input-tab-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .input-tab-button {
+            padding: 8px 15px;
+            cursor: pointer;
+            background-color: #444;
+            border: none;
+            color: var(--cor-texto);
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .input-tab-button.active {
+            background-color: var(--cor-principal);
+        }
+
+        /* Oculta/Mostra conteúdo da aba interna */
+        .input-tab-content {
+            display: none;
+        }
+
+        .input-tab-content.active {
+            display: block;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 10px;
+            background-color: #3C3C3C;
+            color: var(--cor-texto);
+            border: 1px solid var(--cor-principal);
+            border-radius: 4px;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        /* Estilos de Resultados */
+        #result-display {
+            background-color: var(--cor-card);
+            border-radius: 8px;
+            border: 1px solid #444;
+            padding: 25px;
+            margin-top: 20px;
+        }
+
+        .result-title {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .metric-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .metric-box {
+            flex: 1;
+            text-align: center;
+        }
+
+        .metric-label {
+            font-size: 0.8em;
+            color: #b0b0b0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metric-value {
+            font-size: 2.8em;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        #jaccard-similarity {
+            color: var(--cor-principal);
+        }
+
+        #jaccard-distance {
+            color: var(--cor-distancia);
+        }
+
+        .metric-divider {
+            width: 1px;
+            background-color: #444;
+            height: 60px;
+        }
+
+        #status-message {
+            font-size: 0.9em;
+            color: #b0b0b0;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .separator {
+            border: 0;
+            border-top: 1px solid #444;
+            margin: 20px 0;
+        }
+
+        #result-display p {
+            background-color: #3C3C3C;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 5px 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* "Sobre" e "Limitações" */
+        .info-box {
+            background-color: var(--cor-card);
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 30px;
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #ccc;
+        }
+
+        .info-box h3 {
+            color: var(--cor-principal);
+            margin-top: 0;
+        }
+
+        .info-box ul {
+            padding-left: 20px;
+        }
+
+        /* Modifica o placeholder existente para ser clicável */
+        .upload-placeholder {
+            display: block;
+            border: 2px dashed #555;
+            border-radius: 5px;
+            padding: 40px;
+            text-align: center;
+            color: #888;
+            cursor: pointer; 
+            transition: background-color 0.2s, border-color 0.2s; 
+        }
+
+        .upload-placeholder:hover {
+            background-color: #3C3C3C; 
+            border-color: var(--cor-principal); 
+        }
+        
+        /* nome do arquivo */
+        .file-name-display {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #ccc;
+            font-style: italic;
+        }
+
+        /* btn principais */
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* btn "analizar" */
+        #btnAnalisar {
+            width: calc(70% - 5px); /* 70% menos metade do gap */
+            padding: 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: var(--cor-principal);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.2s ease;
+            margin-bottom: 0;
+        }
+        #btnAnalisar:hover {
+            background-color: #7d49e8;
+        }
+        
+        /* btn "limpar" */
+        #btnClear {
+            width: calc(30% - 5px); /* 30% menos metade do gap */
+            padding: 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #555; 
+            color: var(--cor-texto);
+            border: 1px solid #777;
+            border-radius: 5px;
+            transition: background-color 0.2s ease;
+            margin-bottom: 0;
+        }
+        #btnClear:hover {
+            background-color: #666;
+        }
