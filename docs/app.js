@@ -3,7 +3,7 @@ import {
     createSetWord,
     getIntersectionSet,
     getUnionSet
-} from "../src/similarityJaccard.config.js";
+} from "./src/similarityJaccard.config.js";
 
 // Objeto para armazenar o conteúdo dos arquivos lidos (ponte entre o 'change' e o 'click')
 const uploadedFileContent = {
