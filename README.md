@@ -10,7 +10,7 @@ A aplicação foi desenvolvida para a disciplina de Matemática para Computaçã
 
 Acesse a ferramenta funcional diretamente no seu navegador através do link abaixo:
 
-> **Link da Aplicação:** **[Similaridade de Jaccard](https://nickdsm24.github.io/Similaridade-de-Jaccard/)**
+> **Link da Aplicação:** **[https://nickdsm24.github.io/Similaridade-de-Jaccard/](https://nickdsm24.github.io/Similaridade-de-Jaccard/)**
 
 ---
 
@@ -41,4 +41,4 @@ Para executar localmente, você **precisa** de um servidor. A forma mais simples
 1.  Ter o [VSCode](https://code.visualstudio.com/) com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 2.  Abrir a pasta **raiz** do projeto no VSCode.
 3.  Clicar com o botão direito no arquivo `front/index.html`.
-4.  Selecionar **"Open with Live Server"** ou **Show Preview**.
+4.  Selecionar **"Open with Live Server"** ou **"Show Preview"**.
