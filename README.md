@@ -10,7 +10,7 @@ A aplicação foi desenvolvida para a disciplina de Matemática para Computaçã
 
 Acesse a ferramenta funcional diretamente no seu navegador através do link abaixo:
 
-> **Link da Aplicação:** **[https://SEU-USUARIO.github.io/SEU-REPOSITORIO/front/](https://nickdsm24.github.io/Similaridade-de-Jaccard/)**
+> **Link da Aplicação:** **[Similaridade de Jaccard](https://nickdsm24.github.io/Similaridade-de-Jaccard/)**
 
 ---
 
