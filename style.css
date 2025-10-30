@@ -1,12 +1,19 @@
 /* Variáveis de cores */
 :root {
-    --cor-fundo: #F8F4E3; /* Bege muito claro */
-    --cor-card: #E8E2D7; /* Bege um pouco mais escuro para cards */
-    --cor-texto: #333333; /* Cinza escuro (para texto normal) */
-    --cor-texto-claro: #FFFFFF; /* Branco (para botões) */
-    --cor-principal: #FF8C61; /* Laranja coral suave */
-    --cor-distancia: #D9534F; /* Vermelho */
-    --cor-botao-cinza: #555555; /* Cinza escuro do botão limpar */
+    --cor-fundo: #F8F4E3;
+    /* Bege muito claro */
+    --cor-card: #E8E2D7;
+    /* Bege um pouco mais escuro para cards */
+    --cor-texto: #333333;
+    /* Cinza escuro (para texto normal) */
+    --cor-texto-claro: #FFFFFF;
+    /* Branco (para botões) */
+    --cor-principal: #FF8C61;
+    /* Laranja coral suave */
+    --cor-distancia: #D9534F;
+    /* Vermelho */
+    --cor-botao-cinza: #555555;
+    /* Cinza escuro do botão limpar */
 }
 
 body {
@@ -31,7 +38,8 @@ body {
 .main-subtitle {
     text-align: center;
     font-size: 1.1em;
-    color: #222222; /* Ajustado para tema claro */
+    color: #222222;
+    /* Ajustado para tema claro */
     margin-top: -15px;
     margin-bottom: 30px;
 }
@@ -42,7 +50,8 @@ body {
     border-radius: 8px;
     padding: 20px 25px;
     margin-bottom: 20px;
-    border: 1px solid #BDB7AC; /* Ajustado para tema claro */
+    border: 1px solid #BDB7AC;
+    /* Ajustado para tema claro */
 }
 
 .document-box h4 {
@@ -60,16 +69,19 @@ body {
 .input-tab-button {
     padding: 8px 15px;
     cursor: pointer;
-    background-color: var(--cor-botao-cinza); /* Cinza escuro */
+    background-color: var(--cor-botao-cinza);
+    /* Cinza escuro */
     border: none;
-    color: var(--cor-texto-claro); /* MUDANÇA: Texto branco */
+    color: var(--cor-texto-claro);
+    /* MUDANÇA: Texto branco */
     border-radius: 5px;
     font-weight: bold;
 }
 
 .input-tab-button.active {
     background-color: var(--cor-principal);
-    color: var(--cor-texto); /* MUDANÇA: Texto escuro */
+    color: var(--cor-texto);
+    /* MUDANÇA: Texto escuro */
 }
 
 /* Oculta/Mostra conteúdo da aba interna */
@@ -85,8 +97,10 @@ textarea {
     width: 100%;
     min-height: 150px;
     padding: 10px;
-    background-color: #F0EDE1; /* MUDANÇA: Cor do textarea */
-    color: var(--cor-texto); /* Texto escuro */
+    background-color: #F0EDE1;
+    /* MUDANÇA: Cor do textarea */
+    color: var(--cor-texto);
+    /* Texto escuro */
     border: 1px solid var(--cor-principal);
     border-radius: 4px;
     resize: vertical;
@@ -97,7 +111,8 @@ textarea {
 #result-display {
     background-color: var(--cor-card);
     border-radius: 8px;
-    border: 1px solid #BDB7AC; /* Ajustado para tema claro */
+    border: 1px solid #BDB7AC;
+    /* Ajustado para tema claro */
     padding: 25px;
     margin-top: 20px;
 }
@@ -122,7 +137,8 @@ textarea {
 
 .metric-label {
     font-size: 0.8em;
-    color: #222222; /* Ajustado para tema claro */
+    color: #222222;
+    /* Ajustado para tema claro */
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -143,26 +159,31 @@ textarea {
 
 .metric-divider {
     width: 1px;
-    background-color: #BDB7AC; /* Ajustado para tema claro */
+    background-color: #BDB7AC;
+    /* Ajustado para tema claro */
     height: 60px;
 }
 
 #status-message {
     font-size: 0.9em;
-    color: #222222; /* Ajustado para tema claro */
+    color: #222222;
+    /* Ajustado para tema claro */
     text-align: center;
     margin-top: 10px;
 }
 
 .separator {
     border: 0;
-    border-top: 1px solid #BDB7AC; /* Ajustado para tema claro */
+    border-top: 1px solid #BDB7AC;
+    /* Ajustado para tema claro */
     margin: 20px 0;
 }
 
 #result-display p {
-    background-color: #222222; /* MUDANÇA: Fundo escuro para a tira */
-    color: var(--cor-texto-claro); /* MUDANÇA: Texto branco */
+    background-color: #222222;
+    /* MUDANÇA: Fundo escuro para a tira */
+    color: var(--cor-texto-claro);
+    /* MUDANÇA: Texto branco */
     padding: 10px;
     border-radius: 4px;
     margin: 5px 0;
@@ -178,7 +199,8 @@ textarea {
     font-size: 0.9em;
     line-height: 1.5;
     color: #222222;
-    border: 1px solid #BDB7AC; /* Ajustado para tema claro */
+    border: 1px solid #BDB7AC;
+    /* Ajustado para tema claro */
 }
 
 .info-box h3 {
@@ -193,7 +215,8 @@ textarea {
 /* Modifica o placeholder existente para ser clicável */
 .upload-placeholder {
     display: block;
-    border: 2px dashed #999; /* Ajustado para tema claro */
+    border: 2px dashed #999;
+    /* Ajustado para tema claro */
     border-radius: 5px;
     padding: 40px;
     text-align: center;
@@ -203,7 +226,8 @@ textarea {
 }
 
 .upload-placeholder:hover {
-    background-color: #E0DBCE; /* Ajustado para tema claro */
+    background-color: #E0DBCE;
+    /* Ajustado para tema claro */
     border-color: var(--cor-principal);
 }
 
@@ -212,7 +236,8 @@ textarea {
     display: block;
     text-align: center;
     margin-top: 15px;
-    color: #222222; /* Ajustado para tema claro */
+    color: #222222;
+    /* Ajustado para tema claro */
     font-style: italic;
 }
 
@@ -231,7 +256,8 @@ textarea {
     font-weight: bold;
     cursor: pointer;
     background-color: var(--cor-principal);
-    color: var(--cor-texto); /* MUDANÇA: Texto escuro */
+    color: var(--cor-texto);
+    /* MUDANÇA: Texto escuro */
     border: none;
     border-radius: 5px;
     transition: background-color 0.2s ease;
@@ -239,7 +265,8 @@ textarea {
 }
 
 #btnAnalisar:hover {
-    background-color: #E87A50; /* Laranja mais escuro */
+    background-color: #E87A50;
+    /* Laranja mais escuro */
 }
 
 /* btn "limpar" */
@@ -250,7 +277,8 @@ textarea {
     font-weight: bold;
     cursor: pointer;
     background-color: var(--cor-botao-cinza);
-    color: var(--cor-texto-claro); /* MUDANÇA: Texto branco */
+    color: var(--cor-texto-claro);
+    /* MUDANÇA: Texto branco */
     border: 1px solid #777;
     border-radius: 5px;
     transition: background-color 0.2s ease;
@@ -260,3 +288,35 @@ textarea {
 #btnClear:hover {
     background-color: #666;
 }
+
+/* --- NOVO: Card de Opções (Stopwords) --- */
+.options-box {
+            /* Remove 'display: flex' e 'gap' */
+            background-color: var(--cor-card);
+            padding: 15px 25px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #BDB7AC;
+        }
+
+        /* (NOVO) Para cada linha de opção */
+        .option-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px 0; /* Espaçamento entre as linhas */
+        }
+        
+        /* (Seu .options-box input[...] e label[...] existentes não precisam mudar) */
+        .options-box input[type="checkbox"] {
+            transform: scale(1.2); 
+            cursor: pointer;
+            accent-color: var(--cor-principal); 
+        }
+
+        .options-box label {
+            color: var(--cor-texto);
+            font-size: 0.9em;
+            font-weight: bold;
+            cursor: pointer;
+        }

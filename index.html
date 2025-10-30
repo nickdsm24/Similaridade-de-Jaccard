@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🔍 Detector de Plágio - Jaccard</title>
-    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -55,11 +55,11 @@
                 </label>
                 <span id="fileA-name" class="file-name-display">Nenhum arquivo selecionado.</span>
             </div>
-            
+
         </div>
 
         <div class="document-box">
-            
+
             <h4>Documento 2</h4>
             <nav class="input-tab-nav" data-target-box="doc2-content">
                 <button class="input-tab-button active" data-tab="doc2-text">Colar Texto</button>
@@ -79,6 +79,22 @@
             </div>
         </div>
 
+        <div class="options-box">
+            <div class="option-item">
+                <input type="checkbox" id="checkStopwords" name="checkStopwords">
+                <label for="checkStopwords">Remover palavras comuns (Stopwords)</label>
+            </div>
+            
+            <div class="option-item">
+                <input type="checkbox" id="checkStemming" name="checkStemming">
+                <label for="checkStemming">Reduzir palavras à raiz (Stemming)</label>
+            </div>
+            
+            <div class="option-item">
+                <input type="checkbox" id="checkBigrams" name="checkBigrams">
+                <label for="checkBigrams">Analisar em pares de palavras (Bigrams)</label>
+            </div>
+        </div>
         <div class="button-group">
             <button id="btnAnalisar">Analisar Documentos</button>
             <button id="btnClear" type="button">Limpar</button>
