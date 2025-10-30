@@ -1,4 +1,4 @@
-# 📊 Detector de Similaridade (Índice de Jaccard)
+# 📊 Detector de Cópia (Índice de Jaccard)
 
 Este é um projeto acadêmico que implementa uma ferramenta web para calcular a **Similaridade de Jaccard** e a **Distância de Jaccard** entre dois documentos de texto.
 
